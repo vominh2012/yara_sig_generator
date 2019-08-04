@@ -4,7 +4,7 @@ usage: create_yara_rules.py [-h] -t TARGET [-a ADDRESS] [-f ADDRESS_FILE] -o
                             OUTPUT
 							
 Examples:
- -create_yara_rules.py -t notepad.exe -a 0x576580 -o notepad_sig.yara
+ - create_yara_rules.py -t notepad.exe -a 0x576580 -o notepad_sig.yara
  - create_yara_rules.py -t notepad.exe -f notepad_offset.txt -o notepad_sig.yara
 	
 Notes:
