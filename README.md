@@ -9,8 +9,7 @@ Examples:
 	
 Notes:
 - Work well on both Python 2.7 & 3.7
-- address file (each line format is address[,length,function_name]), function_name use for yara sig name
-
+- address file, each line format is address[,length, function_name]
 Depends:
 - https://github.com/fox-it/mkYARA (I modified and use customize one for performance reason)
 - https://github.com/aquynh/capstone
